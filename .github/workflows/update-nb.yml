@@ -63,10 +63,12 @@ jobs:
         pip3 install -r ./_notebooks/requirements.txt
         python3 -m ipykernel install --user --name python3
         sudo chmod -R 777 .
+        
     - name: update notebooks
       id: update_nb
       run: |
         ./_action_files/run_notebooks.sh
+        
     - name: Create an issue if notebook update failure occurs
       if: github.event_name == 'schedule' && steps.update_nb.outputs.error_bool == 'true'
       uses: actions/github-script@0.6.0
