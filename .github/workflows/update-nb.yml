@@ -98,10 +98,10 @@ jobs:
     - name: Jekyll build
       uses: docker://hamelsmu/fastpages-jekyll
       with:
-        args: bash -c "gem install bundler && jekyll build -V"
+        args: bash -c "gem install bundler && jekyll build -V" --strict_front_matter --trace"
       env:
         JEKYLL_ENV: 'production'
-        
+
     - name: copy CNAME file into _site if CNAME exists
       run: |
         sudo chmod -R 777 _site/
