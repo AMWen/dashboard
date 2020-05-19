@@ -7,7 +7,9 @@ ERRORS=""
 
 for file in *.ipynb
 do
-    if papermill --kernel python3 "${file}" "${file}"; then
+    if [ "${file}" = "2020-05-18-COVID_19_US_animated_trajectories.ipynb" ]; then
+        echo "Skipping ${file}"
+    elif papermill --kernel python3 "${file}" "${file}"; then
         echo "Sucessfully refreshed ${file}\n\n\n\n"
     else
         echo "ERROR Refreshing ${file}"
