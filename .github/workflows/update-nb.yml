@@ -3,7 +3,7 @@ name: Update Notebooks And Refresh Page
 # Controls when the action will run.
 on:
   schedule:
-  - cron: "0 6 * * *"
+  - cron: "0 * * * *"
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
