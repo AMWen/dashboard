@@ -1,0 +1,61 @@
+{
+  
+    
+        "post0": {
+            "title": "View of Animated Trajectories",
+            "content": "Overall US stats and comparisons with California (CA), Massachusetts (MA), New York (NY), and Ohio (OH) are shown by default. . Tip: Click (+Shift for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. Can also hover above data points to get more details. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Values for states with highest number of confirmed cases . State Confirmed Cases Confirmed Deaths Daily Confirmed Cases Daily Confirmed Deaths . 0 US | 1499722 | 84640 | 19866 | 786 | . 1 NY | 351371 | 22729 | 1250 | 110 | . 2 NJ | 148039 | 10435 | 1705 | 79 | . 3 IL | 96485 | 4234 | 2294 | 57 | . 4 MA | 86010 | 5797 | 0 | 0 | . 5 CA | 80430 | 3302 | 1591 | 41 | . 6 PA | 63056 | 4505 | 822 | 87 | . 7 MI | 51915 | 4915 | 773 | 24 | . 8 TX | 48693 | 1347 | 909 | 11 | . 9 FL | 46442 | 2073 | 854 | 24 | . 10 MD | 39762 | 2023 | 958 | 31 | . Total Deaths . Daily Cases . . Note: zeros were set to 0.1 in order to be displayed on log scale. Current day values are 0 if not yet reported. . . Note: Did not show zeros in this view for greater clarity (at this point 0&#8217;s are likely days without reports rather than days without cases) . Daily Deaths . . Note: Did not show zeros in this view for greater clarity (at this point 0&#8217;s are likely days without reports rather than days without deaths) . Trajectories . . Note: View of new confirmed cases (or deaths) in past week vs. total confirmed cases (or deaths) on log scale. Based on: https://aatishb.com/covidtrends . Animated Trajectories . . . . . The first sets of visualizations were made by Avy Faingezicht, Rob Zinkov and Pratap Vardhan1, with assistance provided by Hamel Husain. . The animated trajectories are based on the work of Daniel Cox. . . Data sourced from &quot;The COVID Tracking Project&quot;. Updated hourly by GitHub Actions.&#8617; . |",
+            "url": "https://amwen.github.io/dashboard/animated-trajectories/",
+            "relUrl": "/animated-trajectories/",
+            "date": " • May 18, 2020"
+        }
+        
+    
+  
+    
+        ,"post1": {
+            "title": "COVID-19 Growth by State (US)",
+            "content": "Overall US stats and comparisons with California (CA), Massachusetts (MA), New York (NY), and Ohio (OH) are shown by default. . Tip: Click (+Shift for multiple) on states in the legend to filter the visualizations below. Click outside the legend to highlight all states. Can also hover above data points to get more details. . Total Cases . . Warning: The number of cases per capita can be heavily biased depending on a state&#8217;s testing procedures and how widely the population is tested. Read with caution. . Values for states with highest number of confirmed cases . State Confirmed Cases Confirmed Deaths Daily Confirmed Cases Daily Confirmed Deaths . 0 US | 8802099 | 219374 | 78661 | 1025 | . 1 CA | 908713 | 17475 | 4515 | 75 | . 2 TX | 879994 | 17700 | 5627 | 105 | . 3 FL | 780220 | 16775 | 4005 | 66 | . 4 NY | 500677 | 25773 | 2031 | 15 | . 5 IL | 393808 | 9889 | 6110 | 51 | . 6 GA | 355025 | 7876 | 1653 | 32 | . 7 NC | 266136 | 4245 | 2253 | 34 | . 8 TN | 254220 | 3241 | 2446 | 34 | . 9 AZ | 241165 | 5905 | 1043 | 14 | . 10 NJ | 232997 | 16324 | 1666 | 18 | . Total Deaths . Daily Cases . . Note: zeros were set to 0.1 in order to be displayed on log scale. Current day values are 0 if not yet reported. . . Note: Did not show zeros in this view for greater clarity (at this point 0&#8217;s are likely days without reports rather than days without cases) . Daily Deaths . . Note: Did not show zeros in this view for greater clarity (at this point 0&#8217;s are likely days without reports rather than days without deaths) . Trajectories . . Note: View of new confirmed cases (or deaths) in past week vs. total confirmed cases (or deaths) on log scale. Based on: https://aatishb.com/covidtrends . The first sets of visualizations were made by Avy Faingezicht, Rob Zinkov and Pratap Vardhan1, with assistance provided by Hamel Husain. . . Data sourced from &quot;The COVID Tracking Project&quot;. Updated hourly by GitHub Actions.&#8617; . |",
+            "url": "https://amwen.github.io/dashboard/growth-us-states/",
+            "relUrl": "/growth-us-states/",
+            "date": " • May 16, 2020"
+        }
+        
+    
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+      ,"page9": {
+          "title": "",
+          "content": "Sitemap: {{ “sitemap.xml” | absolute_url }} | .",
+          "url": "https://amwen.github.io/dashboard/robots.txt",
+          "relUrl": "/robots.txt",
+          "date": ""
+      }
+      
+  
+
+}
